@@ -1,0 +1,54 @@
+.navBarContainer {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navBarContainer .navBarItem {
+  padding: 1em;
+  box-sizing: border-box;
+}
+
+.navBarContainer .navBarItem.active {
+  background-color: black;
+  border-radius: 5px;
+}
+
+.navBarContainer .navBarItem.active a {
+  color: white;
+}
+
+.navBarContainer .navBarItem a {
+  color: black;
+  text-decoration: none;
+}
+
+.navBarContainer .navBarItem:hover a {
+  color: green;
+}
+
+.footer {
+  display:flex;
+  justify-content: center;
+}
+
+.gridContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.gridContainer .card {
+  flex: 1 0 33.33%;
+  box-sizing: border-box;
+  padding: 10px;
+  border: solid 1px #6C6ACE;
+  border-radius: 5px;
+}
+
+.gridContainer .card span {
+  display: block;
+}
+
+
