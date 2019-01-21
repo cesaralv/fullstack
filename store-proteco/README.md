@@ -1,5 +1,7 @@
-#Utilidades y comandos
-[https://css-tricks.com/snippets/css/a-guide-to-flexbox/](Flexbox)
+## Utilidades y comandos
+
+[Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+
 ```bash
   npm init -y
 ```
@@ -19,11 +21,10 @@
   }
 ```
 
-github.com/cesaralv/fullstack
-
-frameworks:
-  bootstrap
-  semantic UI
-  foundation
-package.json
-package-lock.json
+## Tarea:
+* frameworks no validos:
+  * bootstrap
+  * semantic UI
+  * foundation
+* investigar package.json
+* investigar package-lock.json
