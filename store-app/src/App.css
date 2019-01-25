@@ -1,0 +1,113 @@
+.navBarContainer {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navBarContainer .navBarItem {
+  padding: 1em;
+  box-sizing: border-box;
+}
+
+.navBarContainer .navBarItem.active {
+  background-color: black;
+  border-radius: 5px;
+}
+
+.navBarContainer .navBarItem.active a {
+  color: white;
+}
+
+.navBarContainer .navBarItem a {
+  color: black;
+  text-decoration: none;
+}
+
+.navBarContainer .navBarItem:hover a {
+  color: green;
+}
+
+.footer {
+  display:flex;
+  justify-content: center;
+}
+
+.gridContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+
+.gridContainer .card {
+  flex: 0 0 33.33%;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 10px;
+  border: solid 1px #6C6ACE;
+  border-radius: 5px;
+  position: relative;
+}
+
+.gridContainer .card span {
+  display: block;
+}
+
+.gridContainer .card .delete {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  line-height: 1px;
+  font-size: 15px;
+  border: none;
+}
+
+
+.formContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.formContainer .fruitForm {
+  padding: 10px;
+  border: solid 1px #dbdbdb;
+  border-radius: 4px;
+}
+
+.formContainer .fruitForm label {
+  display: block;
+}
+
+.formContainer .fruitForm div {
+  margin-top: 20px;
+}
+
+.formContainer .fruitForm input[type="text"],
+.formContainer .fruitForm input[type="number"] {
+  -webkit-appearance: none;
+  align-items: center;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  box-shadow: none;
+  display: inline-flex;
+  font-size: 1rem;
+  height: 1em;
+  justify-content: flex-start;
+  line-height: 1.5;
+  padding-bottom: calc(.375em - 1px);
+  padding-left: calc(.625em - 1px);
+  padding-right: calc(.625em - 1px);
+  padding-top: calc(.375em - 1px);
+  position: relative;
+  vertical-align: top;
+  background-color: #fff;
+  border-color: #dbdbdb;
+  color: #363636;
+  box-shadow: inset 0 1px 2px rgba(10,10,10,.1);
+}
+
