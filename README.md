@@ -4,4 +4,4 @@
  * [CSS Reference](https://www.w3schools.com/css/default.asp)
  * [Flexbox Reference](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
  * [Ejercicios de Node](https://github.com/cesaralv/fullstack/tree/master/ejercicios-node)
- * [API V1](https://github.com/cesaralv/fullstack/tree/master/ejercicios-node/api)
+ * [API V1](https://github.com/cesaralv/fullstack/tree/master/api)
